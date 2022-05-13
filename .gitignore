@@ -1,0 +1,14 @@
+.vscode
+.idea
+test
+Go2CAnalysis
+*.csv
+TestResult
+test
+*.json
+anatool
+Include
+Function
+anatool.exe
+anatool.zip
+build
