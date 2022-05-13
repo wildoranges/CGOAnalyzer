@@ -1,4 +1,4 @@
-# Go2CAnalysis
+# CGOAnalyzer
 
 本程序使用基于go-ast的go/parser批量检测go仓库是否含有import "C"特征。存在该特征的仓库结果保存在`Go2CDir.json`下。并且对存在import "C"特征的仓库分析其内部的GO-C函数调用情况，以及在注释中include的头文件。结果保存在对应的csv文件。
 总的结果放在当前目录下，比如`./func_detail.csv`。每个仓库的结果放在每个仓库对应的目录下。比如`go`仓库的include分析结果在`./Include/go/go.csv`。
